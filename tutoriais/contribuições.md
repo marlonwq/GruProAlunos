@@ -102,7 +102,7 @@ Agora envie um _Pull Request_.
 
 Logo estará mesclando ('mergeando') as suas mudanças no _Branch_ principal (main) deste projeto. Você receberá um e-mail de notificação quando as alterações forem mescladas.
 
-## tutoriais usando outras ferramentas
+## Tutoriais usando outras ferramentas
 
 <a href="../tutoriais/translations/github-desktop-tutorial.pt_br.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100">
 
