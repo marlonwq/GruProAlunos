@@ -2,8 +2,7 @@
 using namespace std;
 
 int main(){
-  int Q1, Q2, Q3, E1, E2, E3, ovos_perdidos;
-  cin >> Q1 >> Q2 >> Q3 >> E1 >> E2 >> E3;
-  ovos_perdidos = 2 * (E1 + E2 + E3) + E1 + E2 + E3; 
-  cout << (Q1 + Q2 + Q3) - ovos_perdidos << endl;
+  int t1, t2, t3, t4, t5, t6;
+  cin >> t1 >> t2 >> t3 >> t4 >> t5 >> t6;
+  cout << t1 + t2 + t3 + t4 + t5 + t6 << endl;
 }
