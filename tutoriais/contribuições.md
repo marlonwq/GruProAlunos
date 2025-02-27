@@ -104,6 +104,6 @@ Logo estará mesclando ('mergeando') as suas mudanças no _Branch_ principal (ma
 
 ## Tutoriais usando outras ferramentas
 
-<a href="../tutoriais/translations/github-desktop-tutorial.pt_br.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100">
+<a href="../tutoriais/github-desktop.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100">
 
 [GitHub Desktop](github-desktop.md)   
