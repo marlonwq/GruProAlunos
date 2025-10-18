@@ -1,4 +1,4 @@
-# Estudantes GruPro
+# GruPro Alunos
 Este repositório tem como objetivo facilitar o compartilhamento de código, permitindo o acesso a diferentes soluções para os problemas apresentados durante o curso, promover conexões entre os alunos dos cursos de extensão oferecidos pela GruPro, equipe de programação da UFBA. Além de guiar os usuários em suas primeiras contribuições a um repositório.
 
 > [!NOTE]
@@ -9,4 +9,5 @@ Este repositório tem como objetivo facilitar o compartilhamento de código, per
 Contribuições de qualquer tipo são bem-vindas. Você pode começar a contribuir para este repositório compartilhando sas soluções, enviando sugestões, apresenttando problemas ou dando uma estrela ao projeto. 
 
 Se você deseja compartilhar suas soluções para os problemas apresentados durante o curso, mas ainda não sabe como fazer, siga o [tutorial](/tutoriais/contribuições.md).
+
 
