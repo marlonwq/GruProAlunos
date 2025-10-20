@@ -1,86 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  --brand-primary: #4a90e2;
+  --brand-navy: #003366;
+  --body-bg: #222731;
+  --surface-bg: #2a313e;
+  --border-color: #4A5568;
+  --text-primary: #E2E8F0;
+  --text-secondary: #A0AEC0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--body-bg);
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #e0e0e0;
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--brand-primary);
+  font-weight: 500;
+}
+a:hover {
+  color: #73abec;
 }
 
 .navbar {
-    background-color: #1f1f1f;
-    border-bottom: 1px solid #333;
-    padding: 0.5rem 0.5rem;
+  background-color: var(--surface-bg);
+  border-bottom: 1px solid var(--border-color);
+}
+.navbar-brand .title,
+.navbar-item {
+  color: var(--text-primary);
+}
+.navbar-item:hover,
+.navbar-item:focus {
+  background-color: #384252;
+}
+.navbar-burger span {
+  background-color: var(--text-primary);
 }
 
-.navbar .title {
-    padding: 1.5rem 1.5rem;
-    color: #e0e0e0;
+.button.is-dark {
+  background-color: var(--brand-primary);
+  border-color: transparent;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+.button.is-dark:hover {
+  background-color: #73abec;
+  border-color: transparent;
 }
 
-.navbar .button {
-    margin-top: 1rem;
-    background-color: #676b6e;
-    color: #ffffff;
+.hero.is-primary {
+  background-color: var(--brand-navy);
+  background-image: linear-gradient(145deg, #002244 0%, var(--brand-navy) 100%);
+}
+.hero .title {
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+}
+.hero .subtitle {
+  font-weight: 300;
+  color: var(--text-secondary);
 }
 
-.navbar .button:hover {
-    background-color: #848f97;
-}
-
-.section {
-    padding: 1.5rem 1.5rem;
-    color: #000000;
-}
-
-.section .title {
-    color: #000000;
+.title.is-3 {
+  color: var(--text-primary);
+  font-weight: 600;
+  border-bottom: 2px solid var(--brand-primary);
+  padding-bottom: 0.5rem;
+  display: inline-block;
 }
 
 
-.footer a {
-    color: inherit;
-    text-decoration: underline;
+
+.box {
+  background-color: var(--surface-bg);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: var(--text-primary);
 }
 
-.button {
-    border: none;
-    min-width: 40px;
-    min-height: 40px;
-    color: #ffffff;
-    background-color: #4CAF50;
-    transition: transform 0.3s ease;
+
+#uso-etico {
+  margin-top: 1.5rem;
 }
 
-.button:hover {
-    cursor: pointer;
-    color: #ffffff;
-    background-color: #45a049;
-    transform: scale(1.05);
+
+
+.content ul {
+  margin-top: 1rem;
+  list-style-type: '\2705  ';
+  padding-left: 1.5rem;
+}
+.content li {
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.button .icon {
-    font-size: 1.5rem;
+.message.is-warning {
+  background-color: #3d3a2a;
+  border-left: 4px solid #ffdd57;
+  color: #f7f3e3;
+}
+.message.is-warning .message-header {
+  background-color: #ffdd57;
+  color: #333333;
+}
+
+#disclaimer {
+  margin-bottom: 1.5rem; 
+}
+
+.message.is-danger {
+  background-color: #4d2a2a;
+  border-left: 4px solid #f14668;
+  color: #f7e3e3;
+}
+.message.is-danger .message-header {
+  background-color: #f14668;
+  color: #FFFFFF;
 }
 
 .footer {
-    background-color: #1f1f1f;
-    color: #e0e0e0;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-    id page-container {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }    
+  background-color: var(--surface-bg);
+  border-top: 1px solid var(--border-color);
+  padding: 3rem 1.5rem;
+  color: var(--text-secondary);
 }
-
-blockquote {
-    border-left: 5px solid #4CAF50;
-    padding-left: 10px;
-    color: #b0b0b0;
-    margin: 20px 0;
+.footer p, .footer a {
+  color: var(--text-secondary);
+}
+.footer a {
+  font-weight: 600;
+  color: var(--brand-primary);
 }

@@ -3,69 +3,127 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GruProStudents</title>
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1650803834856372"
-     crossorigin="anonymous"></script>
+  <title>GruPro Alunos</title>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-  <nav class="navbar">
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="container">
-      <div class="navbar-start">
-        <h1 class="title">GruProStudents</h1>
-      </div>
-      <div class="navbar-end" style="margin-top: 10px;">
-        <a class="button" href="https://github.com/marlonwq/GruProStudents">
-          <span>Ver no GitHub</span>
-          <span class="icon">
-            <img src="./images/gh.png" alt="GitHub" style="width: 24px; height: 24px;">
-          </span>
+      
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+            <strong class="title is-4">GruPro Alunos</strong>
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
         </a>
       </div>
+
+      <div id="navMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="button is-dark" href="https://github.com/marlonwq/GruProAlunos">
+              <span>Ver no GitHub</span>
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
   </nav>
-  <main class="section">
-    <div class="container">
-      <section id="info" class="section">
-        <p>Este repositório tem como objetivo facilitar o compartilhamento de código, permitindo o acesso a diferentes soluções para os problemas apresentados durante o curso, além de guiar os usuários em suas primeiras contribuições a um repositório.</p>
-      </section>
-      <section id="note" class="section">
-        <h2 class="title">Características</h2>
-        <p> • Acesso a diferentes soluções para os problemas apresentados durante o curso.</p>
-        <p> • Expressar sua maneira de pensar, promovendo conexão entre os estudantes de turmas diferentes.</p>
-        <p> • Tutorial de contribuição para projeto de código aberto no GitHub.</p>
-      </section>
-      <section id="contributing" class="section">
-        <h2 class="title">Uso Básico</h2>
-        <p>Sinta-se à vontade para compartilhar suas soluções e descobrir novas ideias!<p>
-        </p>Recomendo não utilizar este repositório como "gabarito" para checar soluções antes de enviar a sua ou pegar as soluções aqui. O curso é para aprender e tem uma equipe de instrutores a seu dispor. Utilize este repositório para compartilhar suas soluções e, se desejar, olhar a dos colegas como forma de comparação e descoberta de novas maneiras de pensar, de forma ética.</p>
-      </section>
-      </div style="padding: 20px;">
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1650803834856372"
-        crossorigin="anonymous"></script>
-      <!-- . -->
-      <ins class="adsbygoogle"
-        data-ad-client="ca-pub-1650803834856372"
-        data-ad-slot="6193504067"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+
+  <section class="hero is-primary is-medium">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-1">
+          Bem-vindo ao GruPro Alunos!
+        </h1>
+        <h2 class="subtitle is-3">
+          Repositório para alunos dos cursos de extensão do GruPro (Grupo de Programação da UFBA).
+        </h2>
+        <p class="is-size-5">
+          Compartilhamento de soluções, códigos e conexões.
+        </p>
       </div>
     </div>
+  </section>
+
+  <main class="section">
+    <div class="container">
+
+      <article id="disclaimer" class="message is-danger">
+        <div class="message-header">
+          <p>Projeto Não-Oficial</p>
+        </div>
+        <div class="message-body">
+          <strong>Este é um repositório NÃO OFICIAL</strong>, criado e mantido de forma independente por um aluno que participou do curso.
+          Ele <strong>não possui vínculo</strong> formal com a GruPro ou com a UFBA.
+        </div>
+      </article>
+      <div class="columns">
+
+        <div class="column is-two-thirds">
+
+          <div id="features" class="box">
+            <h2 class="title is-3">O que você encontra aqui?</h2>
+            <div class="content">
+              <ul>
+                <li>Acesso a diferentes soluções para os problemas apresentados durante o curso.</li>
+                <li>Um espaço para expressar sua maneira de pensar, promovendo conexão entre os estudantes.</li>
+                <li>Um tutorial de contribuição para projetos de código aberto no GitHub.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="uso-etico" class="box">
+            <h2 class="title is-3">Uso Básico e Ético</h2>
+            <div class="content">
+              <p>Sinta-se à vontade para compartilhar suas soluções e descobrir novas ideias!</p>
+              <p>Este repositório é um espaço de aprendizado colaborativo. Use-o para comparar abordagens e descobrir novas formas de pensar, sempre de forma ética.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="column is-one-third">
+
+          <article id="aviso" class="message is-warning">
+            <div class="message-header">
+              <p>Aviso Importante</p>
+            </div>
+            <div class="message-body">
+              Recomendo <strong>não</strong> utilizar este repositório como "gabarito" ou copiar soluções. O curso é para aprender e a equipe de instrutores está à sua disposição.
+            </div>
+          </article>
+
+          </div>
+
+      </div> 
+    </div> 
   </main>
+
   <footer class="footer">
     <div class="content has-text-centered">
-      <p>Feito por <a href="https://github.com/marlonwq">marlonwq</a> e publicado com <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+      <p>
+        Feito por <a href="https://github.com/marlonwq">marlonwq</a>.
+        Publicado com <a href="https://pages.github.com/">GitHub Pages</a>.
+        &copy; <span id="current-year"></span>
+      </p>
     </div>
   </footer>
-  <script>
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-  </script>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
   <script src="app.js"></script>
-</body>
+
+  </body>
 </html>
